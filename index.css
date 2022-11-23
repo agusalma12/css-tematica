@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Dongle', sans-serif;
+}
+/*configuracioes generales*/
+a{
+    text-decoration: none;}
+ul {list-style: none;}
+.active{
+    color: #9dfc03;
+    text-decoration: underline;
+    font-weight: bold;
+}
+body html{ overflow-x:hidden;}
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+
+/*Inicio de header y titulos*/
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./multimedia/imagen\ 1.png);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content {
+    margin-bottom: 70px;
+    color: rgb(62, 180, 39);
+    text-align: center;
+}
+.header-content h2{
+    font-size: 5vmin;
+}
+
+.header-content h1{
+    font-size: 10vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.ctn {
+    padding: 7px 10px ;
+    background:#9dfc03;
+    border-radius: 40px;
+    color :#330429;
+}
+/*Final de header y titulos*/
+
+/*Inicio navbar*/
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: #9dfc03;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+/*segunda parte de la pagina*/
+.tittle {
+    align-items: center;
+    font-size: 8vmin;
+    color: #4949;
+}
+.row{
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+    
+}
+.row .col img{
+    width: 80%;
+}
+.row .col{
+    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.events .row {
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    color: #330429;
+    margin: 20px auto;
+}
+p{
+    font-size: 3vmin;
+        color:#330429;
+        padding: 0px 90px;
+    }
+    .events{
+        margin-top: 30px;
+    }
+    .events h1 {
+        font-size: 8vmin;
+        color: #484472;
+    }
+    
+    .ct2{
+        padding: 15px 10px;
+        padding-left: 10px;
+        margin: 30px auto;
+        background: #9dfc03;
+        border-radius: 90px;
+        color: #330429;
+    }
+    
+    .events .ct2{
+        margin-top: 20px;
+    }
+    
+    .img{
+        height: 400px;
+        width: 550px;
+        padding-left: 100px;
+    }
+    /*final de la segunda parte de la pagina */
+    /*Inicio de la terceraparte de la pagina */
+    .explore{
+        width: 100%;
+        height: 100%;
+        background-image: url("./multimedia/ibrym.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+    }
+    
+    .explore-content {
+        width: 100%;
+        height: 60vh;
+        padding: 50px;
+        color: #330429;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .explore-content h1{
+        font-size: 7vmin;
+        padding-left: 500px;
+    }
+
+    .explore-content p{
+        color:#420538;
+        padding-left: 500px;
+    }
+    
+    .explore-content .ctn{
+        margin-top: 40px;
+        margin-left: 425px;
+    }
+    
+    .ctn3{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 30px;
+        margin-left: 450px;
+        background: #330429;
+        border-radius: 30px;
+        color: #9dfc03;
+    }
+
+    /*CUARTA parte*/
+    .tours  .row .col{
+        width:100%;
+    }
+    .tours .colum{
+        display: grid;
+        flex-wrap: wrap;
+    }
+    .tours {
+        margin-left: 250px;
+    }
+    .content-col{
+        width: 40%;
+    }
+    
+    .tours .row .col{
+        width: 80%;
+    }
+    
+    div > div > img{
+        width: 250px;
+        padding: 6px;
+    }
+    
+    .content-col h1{
+        font-size: 8vmin;
+        color: #484472;
+        
+    }    
+    .content-col p{
+        padding: 0;
+        margin: 50px auto;
+    }
+    
+    .ctn4{
+        padding: 15px 10px;
+        padding-left: 10px;
+        margin: 20px auto;
+        background: #9dfc03;
+        border-radius: 80px;
+        color: #330429;
+    }
+    .image-galerry{
+        margin-right: 80px;
+        flex-direction: column;
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+    .img2{
+        
+        padding: 10px;
+        }
+
+    .footer{
+        width: 100%;
+        height: 200px;
+        padding: 20px 80px;
+        margin: 0;
+        background: #064e70;
+        text-align: center;
+    }
